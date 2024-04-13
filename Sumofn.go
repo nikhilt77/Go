@@ -7,5 +7,8 @@ func sumOfNNumbers(n int) int {
 }
 
 func main() {
-	fmt.Println(sumOfNNumbers(10))
+    fmt.Print("Enter Number:");
+    var n int
+    fmt.Scanln(&n)
+	fmt.Println(sumOfNNumbers(n))
 }
