@@ -13,5 +13,8 @@ func reverse(s string) string {
 }
 
 func main() {
-    fmt.Println(reverse("hello")) // "olleh"
+    fmt.Print("Enter String:")
+    var input string
+    fmt.Scanln(&input)
+    fmt.Println(reverse(input)) // "olleh"
 }
