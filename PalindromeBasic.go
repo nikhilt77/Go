@@ -13,6 +13,13 @@ func isPalindrome(s string)bool{
     return true
 }
 func main(){
-    fmt.Println(isPalindrome("Malayalam"))
-    fmt.Println(isPalindrome("Hello"))
+    for{
+        fmt.Print("Enter String(enter 'exit' for exiting:")
+        var input string
+        fmt.Scanln(&input)
+        if(input=="exit"){
+            break
+        }
+        fmt.Println(isPalindrome(input))
+    }
 }
