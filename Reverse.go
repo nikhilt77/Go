@@ -16,5 +16,5 @@ func main() {
     fmt.Print("Enter String:")
     var input string
     fmt.Scanln(&input)
-    fmt.Println(reverse(input)) // "olleh"
+    fmt.Println(reverse(input)) 
 }
